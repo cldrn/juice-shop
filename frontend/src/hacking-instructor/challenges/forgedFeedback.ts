@@ -65,7 +65,7 @@ export const ForgedFeedbackInstruction: ChallengeInstruction = {
       fixture: 'app-navbar',
       unskippable: true,
       resolved: waitForElementToGetClicked('#submitButton')
-    }
+    },
     {
       text:
           '🎉 Congratulations, you successfully submitted a feedback as another user!',
